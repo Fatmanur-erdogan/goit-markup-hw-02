@@ -1,0 +1,63 @@
+@import url('https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css');
+
+.body {
+   
+   
+    font-family: 'Roboto',sans-serif;
+    font-family:'Raleway',sans-serif;
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+
+ {
+    font-family: 'Raleway', 
+    sans-serif;
+    font-weight: 700;
+}
+
+.portfolio-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.portfolio-list li {
+    margin: 10px 0;
+}
+
+.portfolio-list a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.portfolio-list a:hover,
+.portfolio-list a:focus {
+    color: #0056b3;
+}
+.interactive-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.interactive-button:hover,
+.interactive-button:focus {
+    background-color: #45a049;
+}
+.heading-person {
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.heading-person:hover,
+.heading-person:focus {
+    color: #FF5733;
+    /* Başlık üzerine gelindiğinde renk değişir */
+}
