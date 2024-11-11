@@ -1,45 +1,41 @@
 .body {
-  width: 1440px;
-  height: 2060px;
-  top: -1175px;
-  left: 405px;
-  
-
-  width: 1440px;
-  height: 72px;
- 
-
   font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
+  color: #434455;
   background-color: #ffffff;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+.nav-order {
+  background-color: #2e2f42;
+}
+.h-effective {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.nav-order button {
+  background-color: #4d5ae5;
+}
+section h3 {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
+}
+section p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
   color: #434455;
 }
-
-.logo {
-  
-width: Hug (115px) px;
-  height: Fixed (24px) px;
-  top: 24px;
-  left: 156px;
-  gap: 0px;
-  opacity: 0px;
-}
-.menu nav 
-
-width: Hug (261px) px;
-height: Hug (24px) px;
-top: 24px;
-left: 347px;
-gap: 40px;
-opacity: 0px;
-
-//styleName: Body Medium;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
