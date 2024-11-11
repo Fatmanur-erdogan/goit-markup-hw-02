@@ -1,63 +1,45 @@
-@import url('https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css');
-
 .body {
-   
-   
-    font-family: 'Roboto',sans-serif;
-    font-family:'Raleway',sans-serif;
-    background-color: #FFFFFF;
-    color: #333;
+  width: 1440px;
+  height: 2060px;
+  top: -1175px;
+  left: 405px;
+  
+
+  width: 1440px;
+  height: 72px;
+ 
+
+  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
 }
 
+.logo {
+  
+width: Hug (115px) px;
+  height: Fixed (24px) px;
+  top: 24px;
+  left: 156px;
+  gap: 0px;
+  opacity: 0px;
+}
+.menu nav 
 
- {
-    font-family: 'Raleway', 
-    sans-serif;
-    font-weight: 700;
-}
+width: Hug (261px) px;
+height: Hug (24px) px;
+top: 24px;
+left: 347px;
+gap: 40px;
+opacity: 0px;
 
-.portfolio-list {
-    list-style-type: none;
-    padding: 0;
-}
+//styleName: Body Medium;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
 
-.portfolio-list li {
-    margin: 10px 0;
-}
-
-.portfolio-list a {
-    text-decoration: none;
-    color: #007BFF;
-    font-size: 18px;
-    transition: color 0.3s ease;
-}
-
-.portfolio-list a:hover,
-.portfolio-list a:focus {
-    color: #0056b3;
-}
-.interactive-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.interactive-button:hover,
-.interactive-button:focus {
-    background-color: #45a049;
-}
-.heading-person {
-    font-size: 24px;
-    color: #333;
-    transition: color 0.3s ease;
-}
-
-.heading-person:hover,
-.heading-person:focus {
-    color: #FF5733;
-    /* Başlık üzerine gelindiğinde renk değişir */
-}
