@@ -1,0 +1,130 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration: none;
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+
+.logo .span {
+  color: #2e2f42;
+}
+
+.header-ul-top-line .list .etiket {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.address-top-line .address-link .list .etiket {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration: none;
+  color: #434455;
+}
+
+.section-hero-image {
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+}
+
+.section-one-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration: none;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration: none;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+.section-one-features .section-title {
+  display: none;
+}
+
+.section-one-features .section-ul .list .subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-one-features .section-ul .list .text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.section-two-team-cards {
+  background-color: #f4f4fd;
+}
+
+.section-two-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.section-two-team-cards .section-ul .list {
+  background-color: #ffffff;
+}
+
+.section-three-header .section-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .text {
+  color: #ffffff;
+}
