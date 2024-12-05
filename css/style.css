@@ -142,6 +142,11 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.section-three-header .section-header {
+  font-size: 36px;
+  line-height: 1.11;
+}
+
 .team-section-li-header {
   font-weight: 500;
   font-size: 20px;
