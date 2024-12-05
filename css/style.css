@@ -9,13 +9,13 @@ ul {
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
-  text-underline-position: from-font;
+  /* text-underline-position:from-font; */
   text-decoration: none;
   color: #4d5ae5;
   text-transform: uppercase;
@@ -31,18 +31,24 @@ ul {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  text-underline-position: from-font;
+  /* text-underline-position: from-font; */
   text-decoration: none;
   color: #2e2f42;
 }
 
-.address-top-line .address-link .list .etiket {
+.header-ul-top-line .list .etiket:hover,
+.header-ul-top-line .list .etiket:focus {
+  color: #404bbf;
+}
+
+.address-top-line .address-link .list .adress-etiket {
+  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  text-underline-position: from-font;
+  /* text-underline-position: from-font; */
   text-decoration: none;
   color: #434455;
 }
@@ -56,10 +62,10 @@ ul {
 .section-one-title {
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  text-underline-position: from-font;
+  /* text-underline-position: from-font; */
   text-decoration: none;
 }
 
@@ -69,10 +75,16 @@ ul {
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: left;
-  text-underline-position: from-font;
+  /* text-underline-position: from-font; */
   text-decoration: none;
   background-color: #4d5ae5;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 
 .section-one-features .section-title {
@@ -106,6 +118,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .section-two-team-cards .section-ul .list {
@@ -113,11 +126,12 @@ ul {
 }
 
 .section-three-header .section-header {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.02;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
